@@ -15,9 +15,9 @@ object Brack{
 		}
 	}
 
-	def IntToLetter(n: Int): Char = {
-		return (n+65).toChar
-	}
+   def IntToLetter(n: Int): Char = {
+	return (n+65).toChar
+   }
 
   //Defining the op array for everything to use
   val op = Array.ofDim[Int](3,3)
